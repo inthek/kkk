@@ -1,0 +1,12 @@
+sugar = int(input())
+o = 0
+while True:
+    if (sugar % 5) == 0:
+        o = o + (sugar//5)
+        print(o)
+        break
+    sugar = sugar - 3
+    o += 1
+    if sugar < 0:
+        print('-1')
+        break
