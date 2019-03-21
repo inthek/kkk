@@ -1,0 +1,7 @@
+ran = int(input())
+a = input()
+hap = 0
+for i in range(0,ran):
+    if (int(a[i]) % 2 == 0):
+        hap += (i+1)
+print(hap)
