@@ -1,0 +1,11 @@
+a = int(input())
+b = int(input())
+
+b1 = int(b/100)
+b2 = int(b/10)-int(b1*10)
+b3 = int(b%10)
+
+print(b3*a)
+print(b2*a)
+print(b1*a)
+print(a*b)
